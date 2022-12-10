@@ -8,7 +8,7 @@ The next revolution in dining hall rating systems
 ### Usage
 
 #### Backend
-Database build script is in backend folder. Build in MySQL.
+- Database build script is in backend folder. Build in MySQL.
 
 #### API
 
@@ -17,4 +17,9 @@ Database build script is in backend folder. Build in MySQL.
     - node index.js to start in API/ 
 
 #### Frontend
+- Compiled using npm run build
+- Contents will go in your document root
+
+### Source Code
+- SRC File. Do your worst :)
 
