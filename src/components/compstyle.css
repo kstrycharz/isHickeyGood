@@ -1,0 +1,23 @@
+.Title-style {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Rating-style {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Vote-buttons {
+    text-align: center;
+    
+
+}
+
+img {
+    
+    max-width: 125px
+   
+}
