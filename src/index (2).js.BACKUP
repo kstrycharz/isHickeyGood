@@ -1,0 +1,49 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import Title from './components/Title';
+import Percentage from './components/Percentage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
+import Votebuttons from './components/Votebuttons';
+import LoginForm from './components/LoginForm'
+//import Combined from './components/combined'
+//const root = ReactDOM.createRoot(document.getElementById('root'));
+//root.render(
+  //<React.StrictMode>
+        //<Title />
+        //<Percentage style={{ marginBottom: "200px" }} />
+        //<Votebuttons />
+
+  //</React.StrictMode>
+//);
+
+
+
+ReactDOM.render(
+    <Router>
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/verify">Verify Email</Link>
+                </li>
+            </ul>
+        </nav>
+        <Routes>
+            <Route path="/verify">
+                <LoginForm />
+            </Route>
+            <Route path="/">
+                <Title />
+                <Percentage style={{ marginBottom: "200px" }} />
+                <Votebuttons />
+            </Route>
+        </Routes>
+    </Router>,
+    )
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

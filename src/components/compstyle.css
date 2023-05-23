@@ -1,0 +1,139 @@
+.Title-style {
+    font-size: 40px;
+    text-align: center;
+ 
+    
+}
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.Rating-style {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Vote-buttons {
+    text-align: center;
+    
+
+}
+
+img {
+    
+    max-width: 125px
+   
+}
+
+
+.percentage-container {
+    margin-bottom: 100px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #EBCEA0;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    border-color: black;
+    padding: 14px 28px;
+    color: black;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #005fa3;
+    }
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.FancyText {
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+    font-weight: bold !important;
+    font-family: monospace;
+    letter-spacing: 2px !important;
+    cursor: pointer;
+}
+
+.FancyText {
+  padding: 10px;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s infinite linear;
+  -webkit-text-stroke: 2px black;
+}
+
+.Rating-style {
+    font-family: monospace;
+    color: #F8EDD9;
+    padding-top: 200px;
+    font-weight: bolder;
+    font-style: italic;
+    -webkit-text-stroke: 2px black;
+}
+
+.LoginFormStyle {
+    font-family: monospace;
+    color: #F8EDD9;
+   
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+.LoginFormWarn {
+    
+
+    padding-top: 50px;
+    font-family: monospace;
+    color: #F8EDD9;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+.LoginFormPrompt {
+    padding-top: 50px;
+    font-family: monospace;
+    color: #F8EDD9;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
